@@ -1,0 +1,5 @@
+using VideoHub.Common.BaseRepository.BaseCommandGenericRepository;
+
+namespace VideoHub.Moduls.Payment.Repository.CommandRepository;
+
+public interface IPaymentCommandRepository:ICommandGenericRepository<Payment>;
